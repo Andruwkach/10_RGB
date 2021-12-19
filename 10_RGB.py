@@ -54,17 +54,3 @@ class Color(ComuterColor):
 
     def __rmul__(self, c):
         return self.__mul__(c)
-
-red = Color(255, 0, 0)
-redred = Color(255, 0, 0)
-red2 = Color(255, 0, 1)
-green = Color(0, 255, 0)
-print(red)
-print(red)
-print(red == red2)
-print(red == red)
-print(red + green)
-print([red, redred, red2, green])
-print(set([red, redred, red2, green]))
-print(red * 0.5)
-print(green * 0.678)
